@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformar 2022</title>
+  <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  </head>
+<body>
+  <div class="container text-center">
+    <h1 class="mt-3">Simulador Transformar 2022</h1>
+  </div>
+  <div class="container text-center" id="top">
+    <hr>
+    <p class="mt-4">Prueba consta de <strong><span id="cantidadPreguntasTitulo">40</span></strong> preguntas y dispones de <strong><span id="tiempoMaximo">40</span></strong> minutos para resolver</p>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h5>&sext; <span id="materia">Atencion y concentración</span></h5>
+      </div>
+      <div class="col-md-6">
+        <h5>Tiempo Restante: <span id="reloj"></span></h5>
+      </div>
+    </div>
+    <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 m-5">
+        <div class="card" style="width:96%;">
+          <h5 class="card-header" id="topCard">Pregunta: <span id="preguntaNumero">0</span> de <span id="cantidadPreguntas">40</span></h5>
+          <div class="card-body">
+            <h5 class="card-title mb-3"><span id="nombrePregunta">¿?</span></h5>
+              <div class="form-group" id="posiblesRespuesta">
+              </div>
+              <div class="text-end">
+                <button id="next" class="btn btn-info mt-5"> &check; Siguiente </button>
+              </div>
+          </div>     
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="marca">
+    <div class="vertical">
+      <span class="vertical-2 text-muted">
+        © 2022 Copyright: <a class="text-reset fw-bold" href="https://angelamores.com/" target="_blank">Software solutions</a>
+      </span> 
+    </div>
+  </div>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script  type="module" src="js/examen.js"></script>
+</body>
+</html>

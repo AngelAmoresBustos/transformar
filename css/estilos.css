@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F9F9 ;
+}
+
+.login {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  z-index:2;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+}
+
+.marca {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 28px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+}
+
+.vertical {
+  top: 80%;
+  left: 2px;
+  position: fixed;
+  transform: translateY(-50%);
+  
+}
+
+.vertical-2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: start;
+}
+
+.vertical-2 a {
+  text-decoration: none;
+}
+
+.puntos{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  background:transparent url(../img/pattern2.png) repeat-x bottom left;
+}
